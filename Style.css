@@ -1,0 +1,43 @@
+
+*{
+    background-color: cornsilk;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 34px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+.decrease {
+    padding: 20px;
+    border-color: aquamarine;
+    width: 100%;
+    cursor: pointer;
+}
+.reset {
+    padding: 20px;
+    border-color: blueviolet;
+    width: 100%;
+    cursor: pointer;
+}
+.increase {
+    padding: 20px;
+    border-color: cornflowerblue;
+    width: 100%;
+    cursor: pointer;
+}
